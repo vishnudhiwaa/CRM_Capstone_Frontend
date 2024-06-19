@@ -1,0 +1,10 @@
+
+// get orders with delivered grouped by the month 
+// get orders with delivered grouped by the year 
+// get total pending req vs assigned count with query 
+
+//category wise products sold 
+
+// send email on order cancelled and refund initiated 
+// if ResetTvOutlined.order status === cancelled 
+// sendmail

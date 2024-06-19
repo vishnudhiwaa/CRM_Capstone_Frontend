@@ -1,0 +1,88 @@
+
+.App {
+    text-align: center;
+  }
+  
+  .gradient-b{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 30%, rgba(0,212,255,1) 100%);
+  }
+  .gradient-mem{
+    background: rgb(222,98,98);
+  background: linear-gradient(113deg, rgba(222,98,98,1) 25%, rgba(255,184,140,1) 100%);
+  }
+  
+  .gradient-g {
+    background: rgb(233,246,227);
+  background: linear-gradient(113deg, rgba(233,246,227,1) 7%,  100%);
+  }
+  .gradient-m {
+    background: rgb(2,202,209);
+  background: linear-gradient(113deg, rgba(2,202,209,1) 18%, rgba(0,205,172,1) 100%);
+  }
+  .gradient-l{
+    background: rgb(233,246,227);
+    background: linear-gradient(113deg, rgba(233,246,227,1) 7%, rgba(231,249,229,1) 100%);
+  }
+  .hoverWhite:hover{
+      color: white;
+  }
+  .hoverVio:hover{
+      color: mediumvioletred;
+  }
+  .txt-shadow{
+    text-shadow: 2px 2px 8px greenyellow;
+  }
+  .txt-strike{
+    text-decoration: line-through;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 100px 3fr 1fr 2fr 1fr 1fr;
+    grid-gap: 10px;
+    background-color: #cdebac;
+    border-radius: 5px;
+    padding: 10px; 
+    overflow: auto;
+  }
+  .grid-container-od {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 1fr;
+    grid-gap: 10px;
+    background-color: #cdebac;
+    padding: 10px; 
+    overflow: auto;
+  }
+  .grid-container-eq {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    background-color: #cdebac;
+    padding: 10px; 
+    overflow: auto;
+    gap: 5px; 
+    row-gap: 5px;
+    column-gap: 5px;
+  }
+  .grid-container-eq3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    background-color: #cdebac;
+    padding: 10px; 
+    overflow: auto;
+  }
+  .rotateimg{
+    transform: rotateX(360deg) rotateZ(0); 
+    animation: spin 3s linear infinite;
+  }
+  @keyframes spin {
+    30% {
+      transform: rotateX(30deg);
+    }
+    80% {
+      transform: rotateX(-30deg);
+    }
+  } 
+  
